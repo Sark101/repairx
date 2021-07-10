@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: tomato;
+}
+
+.bg{
+    background-color: tomato;
+    width: 400px;
+    height: 2600px;
+    border-radius: 2%;
+}
+h2{color: #fff;
+   
+}
+
+
+.header{
+  color: #00ccff7f;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 7%;
+  
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+border: none;
+  outline: 0;
+  padding: 12px;
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+  cursor: pointer;
+width: 100%;
+  font-size: 18px;
+  border-radius: 10%;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+h1{
+  color: #fff;
+}

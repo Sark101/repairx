@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: Tomato;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #57767e;
+}
+
+.Card{
+  box-sizing: border-box;
+  background-color: #57767e;
+}
+
+
+.wrapper1{
+  background: #fff;
+  border-radius: 10;
+ 
+}
+
+.card1{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: left;
+  border-radius: 10;
+ margin: auto;
+  background: tomato;
+ 
+}
+
+
+.fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
+
+
+.card2{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: left;
+  border-radius: 50;
+ margin: auto;
+  background: #fff;}
+
+.column{
+  border: box;
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+}
+
+.wrapper2{
+  background: #fff;
+  border-radius: 10;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #fff;
+   color: #a5b126;
+   text-align: center;
+   height: 8%;
+}
+
+
+.whatsapp_float{
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  
+}
+
+h3{
+ font-family: Times New Roman;
+ color: #fff;
+}
+h2{
+  color: #fff;
+}
+
+
+p{
+  color: #fff;
+}
